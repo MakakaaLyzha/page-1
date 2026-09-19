@@ -1,7 +1,9 @@
 ﻿body {
+    margin: auto;
+    width: 500px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #FFF9E9;
-    color: #333333; 
+    color: #333333;
     line-height: 1.7;
     margin: 5;
     padding: 40px 40px;
@@ -16,7 +18,9 @@
 
 
 .accent-paragraph {
-    font-weight: bold; 
+    margin: auto;
+    width: 500px;
+    font-weight: bold;
     font-family: 'Javanese Text';
     color: rgba(20, 20, 20, 0.85); /*почему не работает уменьшение яркости*/
     line-height: 0.4; /* почему не отображается*/
@@ -26,6 +30,8 @@
 
 
 p {
+    margin: auto;
+    width: 500px;
     color: rgba(40, 40, 40, 0.9);
     line-height: 2;
     margin-bottom: 30px;
@@ -43,7 +49,9 @@ p {
     color: #875036; /* почему не отображается*/
     font-style: italic; /* почему не отображается*/
 }
-.image-wrapper { /* почему не отображается*/
+.image-wrapper {
+    margin: auto;
+    width: 500px; /* почему не отображается*/
     position: relative;
     display: inline-block;
     max-width: 100%;
@@ -51,7 +59,9 @@ p {
     border-radius: 10px;
     overflow: hidden;
 }
-.styled-image { /* почему не отображается*/
+.styled-image {
+    margin: auto;
+    width: 500px; /* почему не отображается*/
     display: block;
     width: 100%;
     height: auto;
@@ -60,6 +70,8 @@ p {
 
 
 .image-wrapper::after {
+    margin: auto;
+    width: 500px;
     position: absolute;
     top: 10;
     left: 10;
