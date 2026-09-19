@@ -1,0 +1,70 @@
+﻿body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #FFF9E9;
+    color: #333333; 
+    line-height: 1.7;
+    margin: 5;
+    padding: 40px 40px;
+}
+
+.container {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+
+.accent-paragraph {
+    font-weight: bold; 
+    font-family: 'Javanese Text';
+    color: rgba(20, 20, 20, 0.85); /*почему не работает уменьшение яркости*/
+    line-height: 0.4; /* почему не отображается*/
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+
+p {
+    color: rgba(40, 40, 40, 0.9);
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+.quote {
+    margin: 40px 40px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-left: 4px solid #3b82f6; /* почему не отображается*/
+
+    background-color: #DF0004; /* почему не отображается*/
+    color: #875036; /* почему не отображается*/
+    font-style: italic; /* почему не отображается*/
+}
+.image-wrapper { /* почему не отображается*/
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin: 24px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.styled-image { /* почему не отображается*/
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: brightness(1.12) contrast(90%);
+}
+
+
+.image-wrapper::after {
+    position: absolute;
+    top: 10;
+    left: 10;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( to bottom, rgba(139, 241, 255, 0) 40%, rgba(74, 20, 121, 0.55) 100% );
+    /*ничего не отображается((*/
+}
